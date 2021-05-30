@@ -312,6 +312,18 @@ console.log(addressCityMap);
 
 /* UC10:- Ability to get number of contact persons i.e. count by City or State 
           - Search Result will show count by city and by state
-          - Use Array Functions of filter, map, reduce, UC 10 etc to do the check */
+          - Use Array Functions of filter, map, reduce, etc to do the check 
+*/
 
 console.log("Number of people from that city is:- "+peopleFromCity.length);
+
+/*UC11:- Ability to sort the entries in the address book alphabetically by Person’s name.
+         - Use Console to sort person details by name.
+         - Use Collection Library for Sorting.
+         - Override toString method to finally Print Person Entry in Concole.
+         - Use Java Streams. 
+*/
+let sortedArray = addressArr.sort(a=>a.firstName);
+console.log(sortedArray);
+
+
