@@ -302,9 +302,16 @@ console.log("People from the given city are: "+peopleFromCity);
 /* UC9:- Ability to view Persons by City or State 
          - Use Array Functions of filter, map, reduce, etc to do the check */
 
-function ReturnCityMap(a){
+function ReturnCityMap(a)
+{
     return a.city+ "->"+a.firstName;
 }
 let addressCityMap= addressArr.map(ReturnCityMap);
 console.log("Viewing the people by their city")
 console.log(addressCityMap);
+
+/* UC10:- Ability to get number of contact persons i.e. count by City or State 
+          - Search Result will show count by city and by state
+          - Use Array Functions of filter, map, reduce, UC 10 etc to do the check */
+
+console.log("Number of people from that city is:- "+peopleFromCity.length);
